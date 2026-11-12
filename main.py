@@ -1,7 +1,7 @@
 from app.routers import issues
 from fastapi import FastAPI
 from app.routers import users
-from app.database import engine, Base
+from app.db.database import engine, Base
 from app import models
 from app.routers import comments
 from app.routers import projects
